@@ -1,0 +1,71 @@
+{
+  "emotion": "기쁨",
+  "base_config": {
+    "text_temp": 0.7,
+    "waveform_temp": 0.8,
+    "emotion_tags": [
+      "[happy]",
+      "[excited]",
+      "[joyful]"
+    ],
+    "characteristics": {
+      "pitch_tendency": "higher",
+      "tempo_tendency": "faster",
+      "energy_level": "high",
+      "formant_shift": "brighter"
+    }
+  },
+  "speaker_variants": [
+    {
+      "speaker_id": "기쁨_speaker_1",
+      "base_speaker": "v2/ko_speaker_0",
+      "emotion_tag": "[happy]",
+      "variant": "v2/ko_speaker_0_high_pitch",
+      "text_temp": 0.7,
+      "waveform_temp": 0.8
+    },
+    {
+      "speaker_id": "기쁨_speaker_2",
+      "base_speaker": "v2/ko_speaker_1",
+      "emotion_tag": "[happy]",
+      "variant": "v2/ko_speaker_1_high_pitch",
+      "text_temp": 0.7,
+      "waveform_temp": 0.8
+    },
+    {
+      "speaker_id": "기쁨_speaker_3",
+      "base_speaker": "v2/ko_speaker_2",
+      "emotion_tag": "[happy]",
+      "variant": "v2/ko_speaker_2_high_pitch",
+      "text_temp": 0.7,
+      "waveform_temp": 0.8
+    },
+    {
+      "speaker_id": "기쁨_speaker_4",
+      "base_speaker": "v2/ko_speaker_3",
+      "emotion_tag": "[happy]",
+      "variant": "v2/ko_speaker_3_high_pitch",
+      "text_temp": 0.7,
+      "waveform_temp": 0.8
+    },
+    {
+      "speaker_id": "기쁨_speaker_5",
+      "base_speaker": "v2/ko_speaker_4",
+      "emotion_tag": "[happy]",
+      "variant": "v2/ko_speaker_4_high_pitch",
+      "text_temp": 0.7,
+      "waveform_temp": 0.8
+    }
+  ],
+  "quality_settings": {
+    "encodec_bandwidth": 12.0,
+    "generation_temperature": {
+      "text_temp": 0.6,
+      "waveform_temp": 0.7
+    },
+    "sampling_rate": 24000,
+    "use_semantic_cache": true,
+    "use_coarse_cache": true,
+    "use_fine_cache": true
+  }
+}

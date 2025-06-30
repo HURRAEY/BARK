@@ -1,0 +1,12 @@
+{
+  "duration": 1794.1996666666666,
+  "sample_rate": 24000,
+  "channels": 1,
+  "audio_shape": [
+    43060792
+  ],
+  "rms_energy": 0.04943309724330902,
+  "zero_crossing_rate": 0.09558128110917732,
+  "spectral_centroid": 2062.751674776769,
+  "chunks_count": 138
+}

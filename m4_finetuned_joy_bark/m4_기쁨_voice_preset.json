@@ -1,0 +1,16 @@
+{
+  "name": "m4_finetuned_기쁨",
+  "emotion": "기쁨",
+  "language": "japanese",
+  "model_path": "m4_finetuned_joy_bark/기쁨_semantic_model/final_model.json",
+  "training_source": "일어/일어-2/기쁨/PTD/J.LJJ.JP30m.wav",
+  "device": "mps",
+  "generation_params": {
+    "text_temp": 0.7,
+    "waveform_temp": 0.8,
+    "silent": false
+  },
+  "description": "M4 MPS로 파인튜닝된 기쁨 감정 일본어 음성",
+  "created_at": "2025-06-30T15:55:28.664930",
+  "file_size_mb": 328.5278434753418
+}

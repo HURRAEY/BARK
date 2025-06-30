@@ -1,0 +1,13 @@
+{
+  "emotion": "슬픔",
+  "speaker_id": "sadness_speaker",
+  "text_temp": 0.5,
+  "waveform_temp": 0.6,
+  "emotion_tags": [
+    "[crying]",
+    "[sorrow]",
+    "[grief]"
+  ],
+  "pth_file": "finetune_output/슬픔/extracted/S.LJJ.JP30m_600e_58200s.pth",
+  "index_file": "finetune_output/슬픔/extracted/added_S.LJJ.JP30m_v2.index"
+}

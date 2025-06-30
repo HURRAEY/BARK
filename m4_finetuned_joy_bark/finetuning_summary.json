@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "model_path": "m4_finetuned_joy_bark/기쁨_semantic_model/final_model.json",
+  "preset_path": "m4_finetuned_joy_bark/m4_기쁨_voice_preset.json",
+  "test_results_path": "m4_finetuned_joy_bark/m4_기쁨_test_results.json",
+  "output_directory": "m4_finetuned_joy_bark",
+  "training_data": "일어/일어-2/기쁨/PTD/J.LJJ.JP30m.wav",
+  "emotion": "기쁨",
+  "device": "mps",
+  "completion_time": "2025-06-30T15:57:05.497526"
+}

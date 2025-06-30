@@ -1,0 +1,17 @@
+{
+  "emotion": "슬픔",
+  "speaker_id": "sadness_speaker",
+  "model_path": "일어/슬픔",
+  "config": {
+    "voice_preset": "v2/ko_speaker_2",
+    "text_temp": 0.5,
+    "waveform_temp": 0.6,
+    "description": "가변적 음조, 불규칙 템포, 중간-낮은 에너지",
+    "characteristics": [
+      "variable_pitch",
+      "irregular_tempo",
+      "medium_low_energy"
+    ]
+  },
+  "created_at": "2025-06-30T13:01:28.145323"
+}

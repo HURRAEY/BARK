@@ -1,0 +1,71 @@
+{
+  "emotion": "우울",
+  "base_config": {
+    "text_temp": 0.6,
+    "waveform_temp": 0.7,
+    "emotion_tags": [
+      "[sad]",
+      "[melancholy]",
+      "[depressed]"
+    ],
+    "characteristics": {
+      "pitch_tendency": "lower",
+      "tempo_tendency": "slower",
+      "energy_level": "low",
+      "formant_shift": "darker"
+    }
+  },
+  "speaker_variants": [
+    {
+      "speaker_id": "우울_speaker_1",
+      "base_speaker": "v2/ko_speaker_0",
+      "emotion_tag": "[sad]",
+      "variant": "v2/ko_speaker_0_low_pitch",
+      "text_temp": 0.6,
+      "waveform_temp": 0.7
+    },
+    {
+      "speaker_id": "우울_speaker_2",
+      "base_speaker": "v2/ko_speaker_1",
+      "emotion_tag": "[sad]",
+      "variant": "v2/ko_speaker_1_low_pitch",
+      "text_temp": 0.6,
+      "waveform_temp": 0.7
+    },
+    {
+      "speaker_id": "우울_speaker_3",
+      "base_speaker": "v2/ko_speaker_2",
+      "emotion_tag": "[sad]",
+      "variant": "v2/ko_speaker_2_low_pitch",
+      "text_temp": 0.6,
+      "waveform_temp": 0.7
+    },
+    {
+      "speaker_id": "우울_speaker_4",
+      "base_speaker": "v2/ko_speaker_3",
+      "emotion_tag": "[sad]",
+      "variant": "v2/ko_speaker_3_low_pitch",
+      "text_temp": 0.6,
+      "waveform_temp": 0.7
+    },
+    {
+      "speaker_id": "우울_speaker_5",
+      "base_speaker": "v2/ko_speaker_4",
+      "emotion_tag": "[sad]",
+      "variant": "v2/ko_speaker_4_low_pitch",
+      "text_temp": 0.6,
+      "waveform_temp": 0.7
+    }
+  ],
+  "quality_settings": {
+    "encodec_bandwidth": 12.0,
+    "generation_temperature": {
+      "text_temp": 0.6,
+      "waveform_temp": 0.7
+    },
+    "sampling_rate": 24000,
+    "use_semantic_cache": true,
+    "use_coarse_cache": true,
+    "use_fine_cache": true
+  }
+}

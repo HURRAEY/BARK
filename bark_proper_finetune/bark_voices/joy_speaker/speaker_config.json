@@ -1,0 +1,17 @@
+{
+  "emotion": "기쁨",
+  "speaker_id": "joy_speaker",
+  "model_path": "일어/기쁨",
+  "config": {
+    "voice_preset": "v2/ko_speaker_3",
+    "text_temp": 0.7,
+    "waveform_temp": 0.8,
+    "description": "높은 톤, 빠른 템포, 높은 에너지",
+    "characteristics": [
+      "high_pitch",
+      "fast_tempo",
+      "high_energy"
+    ]
+  },
+  "created_at": "2025-06-30T13:01:31.178153"
+}

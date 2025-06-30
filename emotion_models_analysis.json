@@ -1,0 +1,895 @@
+{
+  "analysis_timestamp": "2024-06-30",
+  "emotions_analyzed": [
+    "우울",
+    "슬픔",
+    "기쁨"
+  ],
+  "model_analyses": {
+    "우울": {
+      "pth_analysis": {
+        "file_path": "finetune_output/우울/extracted/B.LJJ.JP30m_600e_54000s.pth",
+        "file_size_mb": 54.923828125,
+        "keys": [
+          "weight",
+          "config",
+          "epoch",
+          "step",
+          "sr",
+          "f0",
+          "version",
+          "creation_date",
+          "model_hash",
+          "overtrain_info",
+          "dataset_lenght",
+          "model_name",
+          "author",
+          "embedder_model",
+          "speakers_id"
+        ],
+        "data_type": "OrderedDict",
+        "weight_type": "dict",
+        "config_type": "list",
+        "epoch_value": 600,
+        "step_value": 54000,
+        "sr_value": 48000,
+        "f0_value": true,
+        "version_value": "v2",
+        "creation_date_value": "2025-02-13T15:44:09.831296",
+        "model_hash_value": "4c5a42de8bad8f7999fb82ac7f2f0d7ec9d61f88675efdc08e7b5321e2b928e6",
+        "overtrain_info_value": "",
+        "dataset_lenght_value": "00:29:58",
+        "model_name_value": "B.LJJ.JP30m",
+        "author_value": "None",
+        "embedder_model_value": "contentvec",
+        "speakers_id_value": 1
+      },
+      "index_analysis": {
+        "file_path": "finetune_output/우울/extracted/added_B.LJJ.JP30m_v2.index",
+        "file_size_mb": 292.43059062957764,
+        "file_size_bytes": 306635699,
+        "header_preview": "4977466c000300002d7b010000000000000010000000000000001000000000000101000000b80900000000000001000000000000004978463200030000b80900000000000000001000000000000000100000000000010100000000281d00000000003379",
+        "latin1_content": "IwFl\u0000\u0003\u0000\u0000-{\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0000\u0000\u0000¸\t\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000IxF2\u0000\u0003\u0000\u0000¸\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0000\u0000\u0000\u0000(\u001d\u0000\u0000\u0000\u0000\u00003y¾\u0000êo=3Í7¾g\bI=\u0017\u001c¾gv\u0011¾\u0000\fC¾3Ë½¾S\u001bª½><«ë½gIõ=3û¡½\u00009¾¹¾\u0000:\n½(Æi>3ËA¾\u0000ÐX»ÍÜ¾\u0000¼ä=g¨Ì½G ¿MU\f¾3\u0001ý¼g²T>g\"\u0002½M\u0012Ñ½³?1¾-À\u000f>gÆf¼\u0000å½æ½3ëõ½í$=gF\u0019>3÷®½\u001a]6>3Ò=3ûø<\u0000Æ!¾Í\u001c½\u0000ð}¾Z4/½\u0000Ê½Í6ö½g\fä=v¡¼\u0000È¾ÍM­½ð½`S\u001a=ÍE(¾E\u001d>ó\f>\u0000¬\u0010=³_\u000e>g\u0006>ÍJ=ghM¾3¨=3Ð\u000e¾g%¾\nÝ>)Â;SO¾¹=3\u000b÷½ÍF±¾\"½\u001a\u0015u>Mç=@Rû½\u000en½3y½3\bæ=in¾\\¾ÍHº¾§æN¾3Ñú>á_¿!/½\u0000¼ì=3 |>g¢<½\u0000D¶?3«1>Ç\u0004¹½3@=ÍÕ=Í<Í:°½Í¤L¾3|%=gÿ½\n÷£¾Í¬\u0012=M[=ÍF=¯ =\n½3±X½\u0000²å=Í \u001e>gÏm¾ÍÐ¾³\u0006\u0018>3\u0013È¼g¢=Í\u0006ù¼\u0000¢ÿ½Íà(½ñy¾3\u0011\u0013>j\u0000¾3H¾>3ga=gB9>Í0ú½3\u000eg¾\u0000p·¾\u0000\b/>g\u0010\u0001=ç\n>\u0000Öo½3ë>3C>gâ\u0013½\u0000Ø\u0005>:Ô\u001b>¾´¼Àn\f>gºé½ã(½\u001d\u0001½çVÅ½óà\u0001¾õ\"=g d>\nÿ½gú'=JÄj>@Z¢=3³\u0019ºzq½gÊ\u001b=\u0000d!¼3¯½³I\u0007>g¼\n¿\u0000¨d¼\u0000Ú\u0004½Íò=\u001aÍ=gL,¾\u00135\u0006¾3MB½·¡=ª÷Ø½³'¾M2Ò½Í4M¾\u001d\u0017Ê=g>¾Ü¼W¸½\u0000ü:¾g\u0014O¾Íy©=ÍÌô½\u0000È<3\\«¼'3>3\u001b\u001c>g¸¾3\u0011½Í8à½grW<\u0000Ç½Íù½¾g]Ò=gj\u0016¾Ç\u001d\u0015¾ø=gÛ\u001a>Í\u001d¾3³¿×r\u0016>3=\u0006@3\b>\u0000m]¿¤°½ç6²>]·½çyá¾«É½ÍH\u0015<3%Y½\u0000êY>M¤(¾3S¾¾g\u000e=\u0000þ?>\u0000;¯?\u001a£$¾\u0000T ¾3S÷>gâ9=3©\u0003>gÄ=g³p>g\u0015\u0013½¡\u000e=%ö=3£ð=3åc=3;<Í\u0003<½gá=Í|¾¼g\u0000l¾Íü¶½\u0000z>çß"
+      }
+    },
+    "슬픔": {
+      "pth_analysis": {
+        "file_path": "finetune_output/슬픔/extracted/S.LJJ.JP30m_600e_58200s.pth",
+        "file_size_mb": 54.923828125,
+        "keys": [
+          "weight",
+          "config",
+          "epoch",
+          "step",
+          "sr",
+          "f0",
+          "version",
+          "creation_date",
+          "model_hash",
+          "overtrain_info",
+          "dataset_lenght",
+          "model_name",
+          "author",
+          "embedder_model",
+          "speakers_id"
+        ],
+        "data_type": "OrderedDict",
+        "weight_type": "dict",
+        "config_type": "list",
+        "epoch_value": 600,
+        "step_value": 58200,
+        "sr_value": 48000,
+        "f0_value": true,
+        "version_value": "v2",
+        "creation_date_value": "2025-02-13T16:07:11.081721",
+        "model_hash_value": "9915e3e1caf3be1e277df4d595853d96ed32259e95aab4295793a2e89152dafa",
+        "overtrain_info_value": "",
+        "dataset_lenght_value": "00:30:10",
+        "model_name_value": "S.LJJ.JP30m",
+        "author_value": "None",
+        "embedder_model_value": "contentvec",
+        "speakers_id_value": 1
+      },
+      "index_analysis": {
+        "file_path": "finetune_output/슬픔/extracted/added_S.LJJ.JP30m_v2.index",
+        "file_size_mb": 287.390154838562,
+        "file_size_bytes": 301350419,
+        "header_preview": "4977466c00030000a3740100000000000000100000000000000010000000000001010000008e09000000000000010000000000000049784632000300008e0900000000000000001000000000000000100000000000010100000000aa1c0000000000d451",
+        "latin1_content": "IwFl\u0000\u0003\u0000\u0000£t\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000IxF2\u0000\u0003\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0000\u0000\u0000\u0000ª\u001c\u0000\u0000\u0000\u0000\u0000ÔQ<ÛÂ={Á>uH\u0018=ãs®¼óø=Í¿¼ff¾»\u001e­¾\u0007mÛ=f&w<Q%û¼n\u001b<X(Ô=|åê¾Iâñ½ê`<,\u0000/>Bõ,>¡\u001b¾\u0019°;ÔÑà½\u001d\u0004·>;\u0018<>\u0016\u001b=3ÓÓ=\u0000x>¨»N=¡ò¤=\u000fÊ±=\u0007c´=|þ*>n?÷½f\u0006ø¼Q\u0007½uôÛ=3zë¾4]>f(Ù>\u0004A½]+¾¾\u001e²=°\u0018\u0006¼|\u0014ò=zÔ=ÍLÜ¼vè<=\u000f\nö=ã¿BÚ½ÔÐR¾%R>\\L\\>ñ\u000b¿,^\u0018>uä.>\u0000ÚK½\u0007\u001d|>\u0007eU½¨#Q¿Æ\u0005\u0017¾I&Ï¼Ô¥D¾fèl¾%Ñ>\u000f:½½X´!>f\u0016O½Ú`à¾uðÝ¾ÆcQ¾ñuR½Qós¾¨=¥ý\u0011¾ÔiD>¨ûN½¾ªí½I¶4¼·M+¿\u001d,Ó¼f¦<B±\u000f>,ü\u001d>¨S5>f¹>ãÃ>;R?¡\u0006\u0019>uh/>_Áõ½cÁ£½!J®½u\u0000F½u8{¾Q\u001fÐ=êÀü»Æ?8¾¾âF>¡\u0013û=AÏ=Ô1õ=_'Z½¨óä<BI1>\u0016c¨½ã»¾|5\u0015=ñº½B>\u0004=?\"=u A=N<,½Ü\u001ei>_ê¼¡\u001aÞ>¥w©½ÔA\n»fª\u0002¾ù5¾\u0016§#½X<T¼BáZ=Xìl½ãëM½\u000føå>ñy,½*Ï½°ì7>\u001d¨H>¡~:¾<\u000fî<°\u0006¥½\u000f&:>QC¾L=Xq&¾\u0007\\>\u0007\f=·\u001d>÷¾·¥£>\u0007\u0018>;½$¦=Q/+¾±\u0000¾nËò½I\u001c¿ÿÀ<¾ò\u0001¾_5W=3Ãª>üF½êÊ>:§;°ÊY>çV½3&t¾|õ}=Æ×E>ê Â¼%\t^¾Æg(¿¨\u0013³½Íx*»%ù¼Í\u0004F¾¡J<n\u000bB¾êv\u0003¾,j½·\u00158¾f\u001eÞ¾>3%¾uPQ;ñ²;Ô-\u0001¾Æc>,Nm=ã\u0003¾BÕê>|½Boè½Q\u0007=¾në?Ôo=ÔQ\u0013¿Ô×\t>·z¼¾X÷<;\u0010û½Æ× ¼ÍØ#¾GN\u0004¾\u0016«\u0003=\u0000P)>\u000f\u0016=ù²Õ¾Û¢©¾3ïS>a\u0010>:>;.>¾3#+½ÍX?¿\n\u0000>%ñ[¾uÏ;\u0016ÿÙ½n\u0003=_¹«»¼Ø¾=¨Yò=ñå>ã+,@\u0016«¸=I£ö>\tzG¾X2ì½¨\u0010 =X^=|q"
+      }
+    },
+    "기쁨": {
+      "pth_analysis": {
+        "file_path": "finetune_output/기쁨/extracted/J.LJJ.JP30m_600e_54600s.pth",
+        "file_size_mb": 54.923828125,
+        "keys": [
+          "weight",
+          "config",
+          "epoch",
+          "step",
+          "sr",
+          "f0",
+          "version",
+          "creation_date",
+          "model_hash",
+          "overtrain_info",
+          "dataset_lenght",
+          "model_name",
+          "author",
+          "embedder_model",
+          "speakers_id"
+        ],
+        "data_type": "OrderedDict",
+        "weight_type": "dict",
+        "config_type": "list",
+        "epoch_value": 600,
+        "step_value": 54600,
+        "sr_value": 48000,
+        "f0_value": true,
+        "version_value": "v2",
+        "creation_date_value": "2025-02-13T16:25:06.692291",
+        "model_hash_value": "05dc71b220e3d61c6af265b4641d076b3059c75478984a3949c9696ce08b6967",
+        "overtrain_info_value": "",
+        "dataset_lenght_value": "00:29:54",
+        "model_name_value": "J.LJJ.JP30m",
+        "author_value": "None",
+        "embedder_model_value": "contentvec",
+        "speakers_id_value": 1
+      },
+      "index_analysis": {
+        "file_path": "finetune_output/기쁨/extracted/added_J.LJJ.JP30m_v2.index",
+        "file_size_mb": 290.6212034225464,
+        "file_size_bytes": 304738419,
+        "header_preview": "4977466c00030000d478010000000000000010000000000000001000000000000101000000a90900000000000001000000000000004978463200030000a90900000000000000001000000000000000100000000000010100000000fb1c000000000097d6",
+        "latin1_content": "IwFl\u0000\u0003\u0000\u0000Ôx\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0000\u0000\u0000©\t\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000IxF2\u0000\u0003\u0000\u0000©\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0000\u0000\u0000\u0000û\u001c\u0000\u0000\u0000\u0000\u0000Öh¼ZÊR>\u000f¯Ç=âá§>µ?½ñÐk=Kë¾â\u0011)¾ñ@\u0013¿-\n`¾-U¼\u0000Ð¾iEZ=KÛ|¾iÉ4¾<¼Á¾-õ=µÔÆ>¦\u0017\u001a¾¦µ>ZòP½Ä#Õ=\u0018=K\u001bý¾\u000f[¾âq,<-­>-\u001c\b¾-½v>ñðU>¦³¼<\u001cL>Zb½-\u001dÍ;µW=ÓRß<Æ4¿yð\u0005½i9É>yü¼\u001e\u001e§½¦%à»Zj\u0004¾<ÜØ<\u001e\u000e¾=\u000f·´½Kû@¾y8d¼ñÐû½\u000f_Q¾K\u000bó½yÇ½iiÀ=ZúÞ¼§b>KU>i¹Ù=ÄS?¼Ó\u0012$>\u0000Pn¾ñ ¾-=\u0017Î¼\u001e¨õ<µô¾y8s½<«½-­p¾\u001eÞ¾\u001f^¾-½â,>\u00000'=\u000f×\u000e¾y0½Zj\\>Kk9¾ñ@F½ñ`=æW¾\u0000Ó¾ZZç=\u0000\u0000¥½ñð=<Ìo½µ\u0004¥<âû\u0005>K»¼¿-½=Ó2G¼\u001eÞË½K¹=ñ\u0010=f4<µ4l>µ4¥½KÃ>ñÀ#¾V=Ä-<<Ò¼Ä+\u0016?Ób}½-u/>ñà=-µP=K½\u001eÞ5¿<d¦»ñ(½â²f¾µ¤.=&Ó½iA¾¦\u0002>KËB½çù¾¦¥\u0012>yÐv=Äm;\u000f/¤½-¾\u0000¨\n¾n\n<\u001e®Ó>µÔG>Z*¾µt\f¾y`\u0003>µQ¾¦F>â9¾=âq\u0004¾\u000f/Î½Ó\"_¾-½¦=&\u0015=wy¼âEõ=âqA?h¼¦õY¾ñ¤Æ¼µTO>Ä\u0003½Ä#f¾ZZÐ¾\u001e^A<¦U\u0005¾\u0000ð'¾%!=Ç8¿iI-=Fa=µ\u0014ø=\u001e&´<ZÊÜ½µ4>Óê5¾Ä[@>K3 >Z²¾ñp\u0013¾\u001e2>V¾Ä#¾ZÚÌ½ÓP\u001c¾Óª\u0018>-¼¼<D\b=il¼éï½\u0000¾$>\u001eNÇ¾«½-Åa¾µdt¾Óbì<-M±=\u000fM¾-MÖ½\u0000ç$¾\u000f_#¾\u0000@Ü>µô\u001d¾ß=\u001e>\t¾i)]?iÉG='?<¶8>ÓêF¾i:¾µt[¾:\\=\u001eî¿\u0000,ý½âÁæ=\u000fïB>µ41¾Äª=¦í,>Q½ø½\u0016?ÀKKe¾nä=\u0007ó¾\u001e\u000eõ½Zê½¦=\u0001=\u001eV\u0016>K39½K\u000b,><T½\u001e\u0006´¼yøð=Ä?K\u001bÑ=ÄãÂ=µ4´<\u0000Ó½\u0007I¼2ß½<d"
+      }
+    }
+  },
+  "extracted_features": {
+    "우울": {
+      "emotion": "우울",
+      "timestamp": "extracted_from_model",
+      "source": "pth_analysis",
+      "model_type": "neural_vocoder",
+      "has_weights": true,
+      "training_epochs": 600,
+      "training_steps": 54000,
+      "pitch_tendency": "lower",
+      "tempo_tendency": "slower",
+      "energy_level": "low",
+      "formant_shift": "darker",
+      "suggested_temp": {
+        "text": 0.6,
+        "waveform": 0.7
+      }
+    },
+    "슬픔": {
+      "emotion": "슬픔",
+      "timestamp": "extracted_from_model",
+      "source": "pth_analysis",
+      "model_type": "neural_vocoder",
+      "has_weights": true,
+      "training_epochs": 600,
+      "training_steps": 58200,
+      "pitch_tendency": "variable",
+      "tempo_tendency": "irregular",
+      "energy_level": "low-medium",
+      "formant_shift": "breathy",
+      "suggested_temp": {
+        "text": 0.5,
+        "waveform": 0.6
+      }
+    },
+    "기쁨": {
+      "emotion": "기쁨",
+      "timestamp": "extracted_from_model",
+      "source": "pth_analysis",
+      "model_type": "neural_vocoder",
+      "has_weights": true,
+      "training_epochs": 600,
+      "training_steps": 54600,
+      "pitch_tendency": "higher",
+      "tempo_tendency": "faster",
+      "energy_level": "high",
+      "formant_shift": "brighter",
+      "suggested_temp": {
+        "text": 0.7,
+        "waveform": 0.8
+      }
+    }
+  },
+  "training_data": {
+    "우울": [
+      {
+        "id": "우울_001",
+        "text": "오늘도 힘든 하루가 지나가네요.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.7000000000000002,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "우울_002",
+        "text": "모든 것이 무의미하게 느껴집니다.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.8,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "우울_003",
+        "text": "혼자 있는 시간이 너무 길어요.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.7000000000000002,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "우울_004",
+        "text": "아무것도 하고 싶지 않아요.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.5,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "우울_005",
+        "text": "마음이 무거워서 견디기 힘들어요.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.8,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "우울_006",
+        "text": "세상이 회색빛으로만 보여요.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.5,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "우울_007",
+        "text": "웃는 것조차 어려워졌어요.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.4000000000000001,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "우울_008",
+        "text": "이 감정이 언제까지 계속될까요.",
+        "emotion": "우울",
+        "speaker": "우울_speaker",
+        "language": "ko",
+        "duration_estimate": 1.7000000000000002,
+        "features": {
+          "emotion": "우울",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54000,
+          "pitch_tendency": "lower",
+          "tempo_tendency": "slower",
+          "energy_level": "low",
+          "formant_shift": "darker",
+          "suggested_temp": {
+            "text": 0.6,
+            "waveform": 0.7
+          }
+        },
+        "synthetic": true
+      }
+    ],
+    "슬픔": [
+      {
+        "id": "슬픔_001",
+        "text": "이별은 정말 아픈 일이에요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 1.5,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "슬픔_002",
+        "text": "눈물이 멈추지 않네요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 1.2000000000000002,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "슬픔_003",
+        "text": "소중한 것을 잃었어요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 1.2000000000000002,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "슬픔_004",
+        "text": "다시는 돌아올 수 없는 시간이에요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 1.9000000000000001,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "슬픔_005",
+        "text": "가슴이 먹먹하고 아파요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 1.3,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "슬픔_006",
+        "text": "추억만 남았네요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 0.9,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "슬픔_007",
+        "text": "왜 이렇게 슬플까요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 1.1,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "슬픔_008",
+        "text": "마음의 상처가 아물지 않아요.",
+        "emotion": "슬픔",
+        "speaker": "슬픔_speaker",
+        "language": "ko",
+        "duration_estimate": 1.6,
+        "features": {
+          "emotion": "슬픔",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 58200,
+          "pitch_tendency": "variable",
+          "tempo_tendency": "irregular",
+          "energy_level": "low-medium",
+          "formant_shift": "breathy",
+          "suggested_temp": {
+            "text": 0.5,
+            "waveform": 0.6
+          }
+        },
+        "synthetic": true
+      }
+    ],
+    "기쁨": [
+      {
+        "id": "기쁨_001",
+        "text": "오늘 정말 기분이 좋아요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 1.4000000000000001,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "기쁨_002",
+        "text": "드디어 꿈이 이루어졌어요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 1.4000000000000001,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "기쁨_003",
+        "text": "너무 행복해서 춤추고 싶어요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 1.6,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "기쁨_004",
+        "text": "세상이 이렇게 아름다울 줄 몰랐어요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 2.0,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "기쁨_005",
+        "text": "웃음이 절로 나와요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 1.1,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "기쁨_006",
+        "text": "모든 것이 완벽해 보여요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 1.4000000000000001,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "기쁨_007",
+        "text": "이 순간이 영원했으면 좋겠어요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 1.7000000000000002,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      },
+      {
+        "id": "기쁨_008",
+        "text": "마음이 날아갈 것 같아요!",
+        "emotion": "기쁨",
+        "speaker": "기쁨_speaker",
+        "language": "ko",
+        "duration_estimate": 1.4000000000000001,
+        "features": {
+          "emotion": "기쁨",
+          "timestamp": "extracted_from_model",
+          "source": "pth_analysis",
+          "model_type": "neural_vocoder",
+          "has_weights": true,
+          "training_epochs": 600,
+          "training_steps": 54600,
+          "pitch_tendency": "higher",
+          "tempo_tendency": "faster",
+          "energy_level": "high",
+          "formant_shift": "brighter",
+          "suggested_temp": {
+            "text": 0.7,
+            "waveform": 0.8
+          }
+        },
+        "synthetic": true
+      }
+    ]
+  },
+  "bark_config": {
+    "model_config": {
+      "use_small_models": false,
+      "enable_mps": true,
+      "offload_cpu": false,
+      "sample_rate": 24000,
+      "encodec_bandwidth": 12.0
+    },
+    "training_config": {
+      "batch_size": 1,
+      "learning_rate": 1e-05,
+      "num_epochs": 50,
+      "warmup_steps": 100,
+      "save_steps": 500,
+      "eval_steps": 250,
+      "gradient_accumulation_steps": 4
+    },
+    "data_config": {
+      "max_text_length": 256,
+      "max_audio_length": 30.0,
+      "validation_split": 0.1,
+      "shuffle": true
+    },
+    "emotion_speakers": {
+      "우울": {
+        "base_speaker": "v2/ko_speaker_1",
+        "emotion_tags": [
+          "[sad]",
+          "[melancholy]",
+          "[depressed]"
+        ],
+        "temperature": {
+          "text": 0.6,
+          "waveform": 0.7
+        }
+      },
+      "슬픔": {
+        "base_speaker": "v2/ko_speaker_2",
+        "emotion_tags": [
+          "[crying]",
+          "[sorrow]",
+          "[grief]"
+        ],
+        "temperature": {
+          "text": 0.5,
+          "waveform": 0.6
+        }
+      },
+      "기쁨": {
+        "base_speaker": "v2/ko_speaker_0",
+        "emotion_tags": [
+          "[happy]",
+          "[excited]",
+          "[joyful]"
+        ],
+        "temperature": {
+          "text": 0.7,
+          "waveform": 0.8
+        }
+      }
+    }
+  }
+}

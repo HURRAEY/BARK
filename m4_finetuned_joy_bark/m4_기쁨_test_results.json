@@ -1,0 +1,33 @@
+{
+  "test_completed": true,
+  "preset_used": "m4_finetuned_joy_bark/m4_기쁨_voice_preset.json",
+  "total_tests": 4,
+  "successful_tests": 4,
+  "results": [
+    {
+      "text": "今日はとても楽しい日です。",
+      "output_file": "m4_finetuned_joy_bark/m4_기쁨_test_1.wav",
+      "success": true,
+      "duration": 2.72
+    },
+    {
+      "text": "美味しい料理を作りましょう。",
+      "output_file": "m4_finetuned_joy_bark/m4_기쁨_test_2.wav",
+      "success": true,
+      "duration": 3.8266666666666667
+    },
+    {
+      "text": "素晴らしい音楽を聴いています。",
+      "output_file": "m4_finetuned_joy_bark/m4_기쁨_test_3.wav",
+      "success": true,
+      "duration": 3.4266666666666667
+    },
+    {
+      "text": "友達と一緒に笑っています。",
+      "output_file": "m4_finetuned_joy_bark/m4_기쁨_test_4.wav",
+      "success": true,
+      "duration": 2.933333333333333
+    }
+  ],
+  "timestamp": "2025-06-30T15:57:05.497304"
+}

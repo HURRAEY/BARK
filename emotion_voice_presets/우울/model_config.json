@@ -1,0 +1,13 @@
+{
+  "emotion": "우울",
+  "speaker_id": "depression_speaker",
+  "text_temp": 0.6,
+  "waveform_temp": 0.7,
+  "emotion_tags": [
+    "[sad]",
+    "[melancholy]",
+    "[depressed]"
+  ],
+  "pth_file": "finetune_output/우울/extracted/B.LJJ.JP30m_600e_54000s.pth",
+  "index_file": "finetune_output/우울/extracted/added_B.LJJ.JP30m_v2.index"
+}

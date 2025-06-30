@@ -1,0 +1,23 @@
+{
+  "emotion": "기쁨",
+  "training_completed": true,
+  "total_epochs": 50,
+  "device": "mps",
+  "training_data_path": "일어/일어-2/기쁨/PTD/J.LJJ.JP30m.wav",
+  "completion_time": "2025-06-30T15:55:28.664852",
+  "embeddings_count": 138,
+  "config": {
+    "sample_rate": 24000,
+    "chunk_length": 15.0,
+    "overlap": 2.0,
+    "batch_size": 4,
+    "learning_rate": 1e-05,
+    "num_epochs": 50,
+    "save_every": 10,
+    "validation_split": 0.1,
+    "max_length": 200,
+    "temperature": 0.7,
+    "top_k": 50,
+    "top_p": 0.95
+  }
+}

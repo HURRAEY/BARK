@@ -1,0 +1,17 @@
+{
+  "emotion": "우울",
+  "speaker_id": "depression_speaker",
+  "model_path": "일어/우울",
+  "config": {
+    "voice_preset": "v2/ko_speaker_1",
+    "text_temp": 0.6,
+    "waveform_temp": 0.7,
+    "description": "낮은 톤, 느린 템포, 낮은 에너지",
+    "characteristics": [
+      "low_pitch",
+      "slow_tempo",
+      "low_energy"
+    ]
+  },
+  "created_at": "2025-06-30T13:01:24.156744"
+}

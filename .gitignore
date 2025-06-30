@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Large files - Audio, Models, Archives
+*.wav
+*.mp3
+*.zip
+*.pth
+*.index
+*.bin
+*.safetensors
+
+# Model directories
+일어/
+finetune_output/
+**/PTD/
+**/added_*/
+**/*_model/
+**/*_models/
+**/models/
+
+# Large generated files
+**/*_cleaned.wav
+**/*_ultra_cleaned.wav
+**/*_gently_cleaned.wav 

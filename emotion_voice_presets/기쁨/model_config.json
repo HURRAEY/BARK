@@ -1,0 +1,13 @@
+{
+  "emotion": "기쁨",
+  "speaker_id": "joy_speaker",
+  "text_temp": 0.7,
+  "waveform_temp": 0.8,
+  "emotion_tags": [
+    "[happy]",
+    "[excited]",
+    "[joyful]"
+  ],
+  "pth_file": "finetune_output/기쁨/extracted/J.LJJ.JP30m_600e_54600s.pth",
+  "index_file": "finetune_output/기쁨/extracted/added_J.LJJ.JP30m_v2.index"
+}
